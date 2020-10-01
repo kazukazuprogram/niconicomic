@@ -35,6 +35,7 @@ def download(url, s, retry=0):
 
 
 def main(args, s=Session(), recursive=False):
+    # FEATURE: ゲストユーザーで見るのがキツイので、ログインを実装する
     if args.test:
         url = "https://seiga.nicovideo.jp/watch/mg508644"
         download(url=url, s=s)
