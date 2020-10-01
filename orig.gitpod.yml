@@ -1,0 +1,5 @@
+image: python
+
+tasks:
+  - init: pip3 install .
+    command: python3 -m niconicomic
